@@ -13,6 +13,7 @@ body{
     align-content: center;
 }
 
+
 .grid div {
     border: solid rgb(68, 65, 65) 2px;
     width: 100px;
