@@ -20,6 +20,7 @@ function addRandomNumber() {
         }
     }
 
+    
     if (emptyCells.length > 0) {
         const randomCell = emptyCells[Math.floor(Math.random() * emptyCells.length)];
         board[randomCell.row][randomCell.col] = Math.random() < 0.9 ? 2 : 4;
